@@ -1,0 +1,61 @@
+*  {
+  outline: 0px;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: serif;
+  color: rgba(255, 255, 255, 0.915);
+}
+main  {
+  background-color: rgb(0, 0, 0);
+}
+.row-container  {
+  padding: 5px 10px 5px 10px;
+  margin: 0px;
+  border-top: 1px solid rgba(108, 244, 0, 0.915);
+}
+/* update divs section*/
+.update  {
+  padding: 5px 10px 5px 10px;
+  margin: 0px;
+  border-top: 1px solid rgba(108, 244, 0, 0.915);
+}
+.update h2 {
+  margin: 0px 25px 0px 25px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40px;
+  font-family: Tiny5;
+  color: rgba(108, 244, 0, 0.915);
+  border-bottom: 1px solid rgba(108, 244, 0, 0.915) ;
+}
+.update h3  {
+  margin: 0px 25px 0px 25px;
+  text-decoration: underline;
+  font-size: 20px;
+  font-family: Tiny5;
+  color: rgba(108, 244, 0, 0.915);
+}
+.update P  {
+  color: rgba(108, 244, 0, 0.915);
+}
+.update ul  {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0px 20px 0px 20px;
+  color: rgba(108, 244, 0, 0.915);
+}
+.update li  {
+  color: rgba(108, 244, 0, 0.915);
+  margin: 5px 10px 5px 10px;
+  font-size: 18px;
+}
+/* changlog links - full summary */
+.change-link  {
+  float: right;
+  padding: 5px;
+  margin: 5px 200px 5px 0px;
+  font-size: 22px;
+  text-decoration: none;
+  color: rgba(108, 244, 0, 0.915);
+}

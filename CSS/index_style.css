@@ -1,0 +1,324 @@
+*  {
+  outline: 0px;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: serif;
+  color: rgba(255, 255, 255, 0.915);
+}
+main  {
+  background-color: rgb(0, 0, 0);
+}
+/* left fixed div - keep left side clear */
+#left-fixed  {
+  position: fixed;
+  top: 160px;
+  left: 5px;
+  margin-right: 80%;
+  background-color: rgb(0, 0, 0);
+}
+#chef-intro {
+  padding: 10px 20px 10px;
+  margin: 10px 20px 10px 20px;
+  border: 4px solid rgba(108, 244, 0, 0.915);
+  border-radius: 20px;
+  background-color: rgb(0, 0, 0);
+}
+#chef-intro > h2  {
+  padding: 0px;
+  margin: 5px 0px 10px;
+  color: rgba(108, 244, 0, 0.915);
+  text-align: center;
+  font-size: 23px;
+  font-family: tiny5, serif;
+}
+#chef-intro > p  {
+  color: rgba(108, 244, 0, 0.915);
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+}
+/* the 8-bit chef image */
+#chef-intro > img  {
+  position: relative;
+  top: 0px;
+  left: 25%;
+  margin: 10px 0px 30px;
+  border: 4px solid rgba(108, 224, 0, 0.915);
+  border-radius: 90px;
+  height: 180px;
+  width: 140px;
+}
+/* social links div */
+#soc-lnk  {
+  padding: 0px;
+  margin: 5px 0px 10px;
+  color: rgba(108, 244, 0, 0.915);
+  text-align: center;
+  font-size: 20px;
+  font-family: tiny5, serif;
+}
+#soc-lnk > h3  {
+margin: 45px 0px 10px;
+color: rgba(108, 244, 0, 0.915);
+text-align: center;
+font-size: 20px;
+font-family: tiny5, serif;
+border-top: 2px solid rgba(108, 224, 0, 0.915);
+border-radius: 10px;
+}
+/* link images */
+.soc-img  {
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+  margin-right: 10px;
+  border: 1px solid rgba(123, 255, 0, 0.925);
+  border-radius: 25px;
+}
+.soc-img:hover  {
+  background-color: rgb(126, 255, 5);
+  box-shadow: 3px 4px 5px rgba(108, 224, 0, 0.432);
+  animation-name: soc-spin;
+  animation-duration: 2.5s;
+}
+/* centered divs - grid rows*/
+.center-rows  {
+  display: grid;
+  grid-template-rows: 1500px 500px 500px;
+  gap: 5px;
+  position: relative;
+  top: 10px;
+  left: 20%;
+  margin-right: 35%;
+}
+/* this class controls all articles */
+.article  {
+  border: 3px solid rgb(126, 255, 5);
+  border-radius: 20px;
+}
+.article h2  {
+  padding: 0px;
+  margin: 15px 0px 10px;
+  color: rgba(108, 244, 0, 0.915);
+  text-align: center;
+  font-size: 35px;
+  font-family: tiny5, serif;
+}
+.article h3  {
+  padding: 0px;
+  margin: 80px 0px 10px;
+  color: rgba(108, 244, 0, 0.915);
+  text-align: center;
+  font-size: 26px;
+  font-family: tiny5, serif;
+  text-decoration: underline;
+}
+.article p  {
+  padding-right: 20px;
+  margin: 20px 0px 10px;
+  color: rgba(108, 244, 0, 0.915);
+  font-size: 18px;
+}
+.article abbr  {
+  padding: 0px;
+  margin: 15px 0px 10px;
+  color: rgba(108, 244, 0, 0.915);
+}
+/* gamemaster profile cards */
+#gm-team  {
+  margin: 0px 15px 0px 25px;
+  padding: 35px 20px 65px 20px;
+  border-top: 2px solid rgb(126, 255, 5);
+  border-bottom: 2px solid rgb(126, 255, 5);
+  border-radius: 10px;
+}
+#gm-grid  {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  gap: 10px;
+  overflow-x: scroll;
+  scrollbar-color: solid rgb(126, 255, 5);
+}
+.gm-card  {
+  padding: 0;
+  margin: 0;
+  border: 2px solid rgb(126, 255, 5);
+  border-radius: 15px;
+}
+/* wizard with flames - left side of div */
+#wizard-img  {
+  background-image: url("/images/front-page/flame-img.png");
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  width: 200px;
+	margin: 20px 50px 20px;
+  opacity: 0.5;
+  float: left;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 100px;
+  animation-name: wizard-guy;
+  animation-duration: 0.8s;
+}
+
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #000000; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #73ff00; 
+}
+
+
+
+
+
+/* Container - mtg lounge */
+#mtg-lounge  {
+  position: relative;
+  top: 10px;
+  left: 380px;
+  margin-right: 730px;
+  border: 4px solid rgba(108, 224, 0, 0.915);
+  border-radius: 20px;
+}
+#mtg-lounge > img  {
+  float: right;
+  margin-right: 20px;
+  height: 250px;
+  width: 150px;
+  border-radius: 90px;
+  opacity: 0.2;
+}
+#mtg-lounge > h1  {
+  color: rgba(108, 224, 0, 0.915);
+  text-align: center;
+  font-family: tiny5, serif;
+  font-size: 30px;
+  text-decoration: underline;
+}
+#mtg-lounge > h2  {
+  color: rgba(108, 224, 0, 0.915);
+  text-align: center;
+  font-family: tiny5, serif;
+  font-size: 20px;
+  margin: 0px 0px 20px;
+}
+#mtg-lounge > h3  {
+  color: rgba(108, 224, 0, 0.915);
+  font-family: tiny5, serif;
+  font-size: 23px;
+  text-align: center;
+  text-decoration: underline;
+}
+#mtg-lounge > p  {
+  color: rgba(108, 224, 0, 0.915);
+  font-family: serif;
+  font-size: 16px;
+  margin: 10px 20px 0px;
+  z-index: 2;
+}
+/* button container */
+#btn-div  {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  gap: 5px;
+  margin: 0px 10px 20px;
+}
+.btn-links  {
+  color: rgba(0, 0, 0, 0.915);
+  background-color: rgba(108, 224, 0, 0.915);
+  border: none;
+  border-radius: 5px;
+  margin: 20px 0px 0px 80px;
+  padding: 3px 8px 3px;
+  text-align: center;
+  font-size: 14px;
+}
+.btn-links:hover  {
+  color: rgba(0, 0, 0, 0.61);
+  background-color: rgb(126, 255, 5);
+  box-shadow: 3px 2px 5px 1px rgba(108, 224, 0, 0.349);
+}
+/* gamer lounge container */
+#game-lounge  {
+  position: relative;
+  top: 30px;
+  left: 380px;
+  margin-bottom: 50px;
+  margin-right: 730px;
+  border: 4px solid rgba(108, 224, 0, 0.915);
+  border-radius: 20px;
+}
+#game-lounge > h1  {
+  color: rgba(108, 224, 0, 0.915);
+  text-align: center;
+  font-family: tiny5, serif;
+  font-size: 30px;
+  text-decoration: underline;
+}
+#game-lounge > h2  {
+  color: rgba(108, 224, 0, 0.915);
+  text-align: center;
+  font-family: tiny5, serif;
+  font-size: 20px;
+}
+#game-lounge > p  {
+  color: rgba(108, 224, 0, 0.915);
+  font-family: serif;
+  font-size: 16px;
+  margin: 10px 20px 0px;
+}
+/* putting keyframes down here */
+@keyframes soc-spin  {
+  0%  {
+    transform: scale(2);
+  }
+  50%  {
+    transform: rotate(0deg);
+    box-shadow: -3px -3px 7px rgba(138, 255, 29, 0.781), 3px 3px 7px rgba(139, 255, 30, 0.781);
+  }
+  100%  {
+    transform: rotate(360deg);
+  }
+}
+@keyframes wizard-guy  {
+  0%  {
+    transform: scale(0.1);
+  }
+  10%  {
+    transform: scale(0.2);
+  }
+  20%  {
+    transform: scale(0.3);
+  }
+  30%  {
+    transform: scale(0.4);
+  }
+  40%  {
+    transform: scale(0.5);
+  }
+  50%  {
+    transform: scale(0.6);
+  }
+  60%  {
+    transform: scale(0.7);
+  }
+  70%  {
+    transform: scale(0.8);
+  }
+  80%  {
+    transform: scale(0.9);
+  }
+  90%  {
+    transform: scale(1);
+  }
+  100%  {
+    transform: scale(1);
+  }
+}
