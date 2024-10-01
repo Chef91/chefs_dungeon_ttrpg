@@ -1,0 +1,47 @@
+@keyframes soc-spin  {
+  0%  {
+    transform: scale(2);
+  }
+  50%  {
+    transform: rotate(0deg);
+    box-shadow: -3px -3px 7px rgba(138, 255, 29, 0.781), 3px 3px 7px rgba(139, 255, 30, 0.781);
+  }
+  100%  {
+    transform: rotate(360deg);
+  }
+}
+@keyframes wizard-guy  {
+  0%  {
+    transform: scale(0.1);
+  }
+  10%  {
+    transform: scale(0.2);
+  }
+  20%  {
+    transform: scale(0.3);
+  }
+  30%  {
+    transform: scale(0.4);
+  }
+  40%  {
+    transform: scale(0.5);
+  }
+  50%  {
+    transform: scale(0.6);
+  }
+  60%  {
+    transform: scale(0.7);
+  }
+  70%  {
+    transform: scale(0.8);
+  }
+  80%  {
+    transform: scale(0.9);
+  }
+  90%  {
+    transform: scale(1);
+  }
+  100%  {
+    transform: scale(1);
+  }
+}

@@ -135,7 +135,7 @@ border-radius: 10px;
 }
 #gm-grid  {
   display: grid;
-  grid-template-columns: 300px 300px 300px;
+  grid-template-columns: 350px 350px 350px;
   gap: 10px;
   overflow-x: scroll;
   scrollbar-color: solid rgb(126, 255, 5);
@@ -146,6 +146,34 @@ border-radius: 10px;
   border: 2px solid rgb(126, 255, 5);
   border-radius: 15px;
 }
+.gm-card h4  {
+  padding: 0px;
+  margin: 30px 0px 10px 0px;
+  color: rgba(108, 244, 0, 0.915);
+  text-align: center;
+  font-size: 26px;
+  font-family: tiny5, serif;
+  text-decoration: underline;
+}
+/* gm card image */
+.gm-card > img  {
+  position: relative;
+  top: 30px;
+  left: 25%;
+  width: 200px;
+  height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* wizard with flames - left side of div */
 #wizard-img  {
   background-image: url("/images/front-page/flame-img.png");
@@ -274,51 +302,4 @@ border-radius: 10px;
   font-size: 16px;
   margin: 10px 20px 0px;
 }
-/* putting keyframes down here */
-@keyframes soc-spin  {
-  0%  {
-    transform: scale(2);
-  }
-  50%  {
-    transform: rotate(0deg);
-    box-shadow: -3px -3px 7px rgba(138, 255, 29, 0.781), 3px 3px 7px rgba(139, 255, 30, 0.781);
-  }
-  100%  {
-    transform: rotate(360deg);
-  }
-}
-@keyframes wizard-guy  {
-  0%  {
-    transform: scale(0.1);
-  }
-  10%  {
-    transform: scale(0.2);
-  }
-  20%  {
-    transform: scale(0.3);
-  }
-  30%  {
-    transform: scale(0.4);
-  }
-  40%  {
-    transform: scale(0.5);
-  }
-  50%  {
-    transform: scale(0.6);
-  }
-  60%  {
-    transform: scale(0.7);
-  }
-  70%  {
-    transform: scale(0.8);
-  }
-  80%  {
-    transform: scale(0.9);
-  }
-  90%  {
-    transform: scale(1);
-  }
-  100%  {
-    transform: scale(1);
-  }
-}
+
