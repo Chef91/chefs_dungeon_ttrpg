@@ -1,0 +1,21 @@
+{
+  "date": "9.28.2024",
+  "changes": [
+    {
+      "title": "Created changelog page",
+      "description": "We created a changelog page for our website. This will help us and our customers keep track of what's going on with the company's website, discord server, and other projects we're working on. We are working on updating this area so that everyone can keep up to date."
+    },
+    {
+      "title": "Updated Home Page",
+      "description": "We have update the home page. The social media buttons now spin. The left box now scrolls up and down. And we also are working on some more features for that page. "
+    },
+    {
+      "title": "Updated Website Title",
+      "description": "we updated the title of the website. The section with all the text on the tab at the top of your browser."
+    },
+    {
+      "title": "Updated Changelog",
+      "description": "We have updated the changelog. This will improve the use of this section of our website."
+    }
+  ]
+}

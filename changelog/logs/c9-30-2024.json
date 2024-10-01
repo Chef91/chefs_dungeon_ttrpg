@@ -1,0 +1,13 @@
+{
+  "date": "9.30.2024",
+  "changes": [
+    {
+      "title": "Changelog Page Updates",
+      "description": "working on some updates for the changelog. Added php to the changelogs. Logs are now stored in .json files."
+    },
+    {
+      "title": "Home Page updates",
+      "description": "Minor homepage updates. Altered text."
+    }
+  ]
+}
