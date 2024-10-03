@@ -1,13 +1,17 @@
 {
-  "date": "10.2.2024",
+  "date": "10.3.2024",
   "changes": [
     {
       "title": "Gamemaster Profile Cards",
       "description": "Updated the profile cards for the game masters. The cards have been adjusted and styled."
     },
     {
-      "title": "Home",
-      "description": "Mi"
+      "title": "added buttons",
+      "description": "Added buttons to the gamemaster profile cards. These buttons will link to their profile pages."
+    },
+    {
+      "title": "homepage construction",
+      "description": "Doing more homepage construction."
     }
   ]
 }

@@ -155,6 +155,11 @@ border-radius: 10px;
   font-family: tiny5, serif;
   text-decoration: underline;
 }
+.gm-card p  {
+  padding: 0px;
+  margin: 30px 20px 10px 20px;
+  color: rgba(108, 244, 0, 0.915);
+}
 /* gm card image */
 .gm-card > img  {
   position: relative;
