@@ -61,7 +61,7 @@ nav li a  {
   font-family: tiny5, serif;
   font-size: 20px;
 }
-nav li a:hover  {
+nav li a:not(.active):hover  {
   background-color: rgba(110, 244, 0, 0.432);
   color: rgb(0, 0, 0)
 }

@@ -25,3 +25,10 @@ Anyone who is reading this repo has access to my files and is welcome to look ar
 ### Contributing
 
 At this time we are not taking any contributions
+
+#### Staff
+
+The current staff is listed as of: 10 - 2 - 2024
+<ul>
+<li>Dev Chef <a href="">Website</a></li>
+</ul>
