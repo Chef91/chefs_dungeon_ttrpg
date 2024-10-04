@@ -1,0 +1,17 @@
+{
+  "date": "10.5.2024",
+  "Changes": [
+    {
+      "title": "Home Page Construction",
+      "description": "Working on a few home page updates. We Re-styled the navigation bar. We have functional buttons now. We also did some minor maintance work."
+    },
+    {
+      "title": "Created Chef Adventure Page",
+      "description": "Created a page that will contain info about Chef's adventures. This will be viewable by clicking on the button in his GM Card."
+    },
+    {
+      "title": "Cleaned Up Files",
+      "description": "Cleaned up some of the files. Making the website more managable for the Dev Team."
+    }
+  ]
+}
