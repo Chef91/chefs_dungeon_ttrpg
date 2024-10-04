@@ -11,12 +11,23 @@ This website was built using:
 <ul>
 <li>HTML</li>
 <li>CSS</li>
+<li>Framework - Bootstrap</li>
 <li>JavaScript</li>
 <li>PHP</li>
 </ul>
 
 This project was built using the languages posted above. As you can see this is a project and the retro design is my creative way of going back to a time that I remember. A time when technology was very new, as I was born in 1991 and can remember learning HTML & CSS with my mom.<br>
 This project has a lot of personal meaning to me and it would be greatly appreciated if you don't bash the style but instead appreciate the flashback to the past and enjoy a cool Dungeons & Dragons Website.
+
+### Services Offered
+
+We currently offer:
+<ul>
+<li>Dungeons & Dragons</li>
+<li>Magic: The Gathering</li>
+<li>Video Game Lounge</li>
+<li>Warhammer 40,000</li>
+</ul>
 
 ## The Codes
 
