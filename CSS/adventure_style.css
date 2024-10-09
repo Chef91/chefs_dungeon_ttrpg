@@ -1,0 +1,23 @@
+:root  {
+  --black: rgb(0, 0, 0);
+  --white: rgba(255, 255, 255, 0.915);
+  --gray: rgba(82, 82, 82, 0.623);
+  --darkgreen: rgba(108, 224, 0, 0.432);
+  --neongreen: rgba(108, 244, 0, 0.915);
+  --glowgreen: rgba(81, 180, 0, 0.915);
+}
+*  {
+  outline: 0px;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: serif;
+}
+main  {
+  background-color: var(--black);
+}
+#container  {
+  display: grid;
+  grid-template-columns: 300px 300px;
+}
+#left-div
